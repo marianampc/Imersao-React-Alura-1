@@ -1,4 +1,4 @@
-Nosso Projeto será um Netflix de Conteúdo.
+Nosso Projeto será um Netflix de Conteúdo. (https://aluraflix.imersao-alura.vercel.app/)
 
 -> Primeiro passo em qualquer projeto React, abrir a documentação no site, assim podendo instalar o ap react pelo terminal (usando os comandos encontrados). Nisso é preciso ter o node instalado no computador.
 -> Em seguida você retira de sua pasta scr os arquivos que não serão utilizados no projeto.
@@ -8,6 +8,6 @@ Nosso Projeto será um Netflix de Conteúdo.
     -> Utilizasse o google fonts 
 -> Um componente seria uma parte do site que se repete em todas as páginas, desse modo ao cria-la podemos editar em um só lugar durante o projeto inteiro.
 -> Criamos uma pasta chamada assets para salvar os acessórios do site.
-
-PAREI COM 1H
-
+-> Nós criamos uma classe filha de outro com o index.js do ButtonLink sendo filho do menu.js 
+-> O aquivo package.json serve para documentar quais pacotes foram usados no projeto e se alguém for abrir no pc dele é só usar o comando npm install
+-> No caminho componetes/Button/index.js esse arquivo foi criado para conter o estilo do bottão, assim não ficando no menu.css.

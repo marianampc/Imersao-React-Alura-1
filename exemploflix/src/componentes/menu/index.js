@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../assets/img/logo.png'
-import '../menu.css'
-import ButtonLink from '../component/ButtonLink'
+import './menu.css'
+import Button from '../Button'
 
 function Menu() {
     return (
@@ -9,9 +9,9 @@ function Menu() {
             <a href="/home">
                 <img class="logo" src={logo} alt="nome" />
             </a>
-            <ButtonLink className="ButtonLink" href="/">
+            <Button as="a"  href="/" className="ButtonLink"> {/*Esse as="a" está falando que o componente butão está funcionando como um link*/}
                 Novo Vídeo
-            </ButtonLink>
+            </Button>
         </nav>
     )
 }
