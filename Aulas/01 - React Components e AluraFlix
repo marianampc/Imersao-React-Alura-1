@@ -1,0 +1,13 @@
+Nosso Projeto será um Netflix de Conteúdo.
+
+-> Primeiro passo em qualquer projeto React, abrir a documentação no site, assim podendo instalar o ap react pelo terminal (usando os comandos encontrados). Nisso é preciso ter o node instalado no computador.
+-> Em seguida você retira de sua pasta scr os arquivos que não serão utilizados no projeto.
+    ->Na criação do projeto tem a ferramenta gratuita no site: https://www.figma.com/
+-> Atualizei o index.css com o código fornecido no github dele. 
+    -> Dentro dele utilizamos a fonte roboto, para importa-la entramos no public/index.html 
+    -> Utilizasse o google fonts 
+-> Um componente seria uma parte do site que se repete em todas as páginas, desse modo ao cria-la podemos editar em um só lugar durante o projeto inteiro.
+-> Criamos uma pasta chamada assets para salvar os acessórios do site.
+
+PAREI COM 1H
+
