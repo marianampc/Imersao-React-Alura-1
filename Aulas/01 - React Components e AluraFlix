@@ -11,3 +11,10 @@ Nosso Projeto será um Netflix de Conteúdo. (https://aluraflix.imersao-alura.ve
 -> Nós criamos uma classe filha de outro com o index.js do ButtonLink sendo filho do menu.js 
 -> O aquivo package.json serve para documentar quais pacotes foram usados no projeto e se alguém for abrir no pc dele é só usar o comando npm install
 -> No caminho componetes/Button/index.js esse arquivo foi criado para conter o estilo do bottão, assim não ficando no menu.css.
+
+Conteúdo detalhado dessa aula:
+    Iniciaremos um projeto com Create React App (CRA);
+    Criaremos components com React usando styled-components;
+    Organizaremos as pastas do nosso projeto;
+    Passaremos propriedades para components;
+    Faremos deploy da sua AluraFlix na Vercel.

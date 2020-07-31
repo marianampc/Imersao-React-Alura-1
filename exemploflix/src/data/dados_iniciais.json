@@ -122,32 +122,40 @@
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Series",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Netflix",
+        "url": "https://www.netflix.com/"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Sense8",
+          "url": "https://www.youtube.com/watch?v=VX-TnKoivR8"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Stranger things",
+          "url": "https://www.youtube.com/watch?v=b9EkMc79ZSU"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Witcher",
+          "url": "https://www.youtube.com/watch?v=ndl1W4ltcmg"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "Blacklist",
+          "url": "https://www.youtube.com/watch?v=XihA6GWIBdM"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "The Order",
+          "url": "https://www.youtube.com/watch?v=iD-cFgDDuqM"
+        },
+        {
+          "titulo": "Good girl",
+          "url": "https://www.youtube.com/watch?v=iD-cFgDDuqM"
+        },
+        {
+          "titulo": "Warrior Nun",
+          "url": "https://www.youtube.com/watch?v=An0bZpuhiBE"
         }
       ]
     },
