@@ -2,6 +2,7 @@
  ->O recurso básico é não precisar recarregar a página
 -> Usamos o router-dom
 
+-> Usamos o https://kenwheeler.github.io/slick/ (versão 1.6) para criar o Carousel.
 
 
 Conteúdo detalhado dessa aula:
