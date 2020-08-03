@@ -1,0 +1,9 @@
+-> O react funciona com o conceito do state
+    ->O state é a parte mais otimizada do react. Basicamente é quando você tem muitas informações na mesma tela, o state realiza o controle dessas notificações. 
+-> O console.log é o guia para o que está acontecendo. Podemos utiliza-lo para imprimir variáveis e informações.
+-> O state tem um valor e uma função. O state que estamos usando é o [nomeDaCategoria] dentro da página de cadastrar categoria.
+->console.log('[InfosDoEvento.target.value]',infosDoEvento.target.value); 
+    ->Quando usamos esse comando dentro da função FuncaoHandLer na página de cadastrar categoria ela seleciona que queremos que apareça no console o dado escrito.
+-> Passamos a aula inteira dentro do cadastro de categoria, deixei bem comentado, para entender o que foi feito.
+-> https://gist.github.com/omariosouto/e04dd020257ff18fdff307ae2b26e00f
+    -> Código da Aula
