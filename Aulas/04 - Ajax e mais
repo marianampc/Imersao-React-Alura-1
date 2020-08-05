@@ -4,4 +4,9 @@ https://github.com/airbnb/javascript
 https://www.npmjs.com/package/eslint-plugin-jsx-a11y
 https://github.com/typicode/json-server
 
-PAREI EM 15MIN
+-> O prop-types (https://www.npmjs.com/package/prop-types) é um tipo de 'tipagem'.
+-> O ES-lint é um "plugin"/"programa" que corrige problemas de sintaxe encontrados. Se baseia em documentações padrões(Tem toda a documentação e explicação no github dele https://github.com/eslint/eslint)
+    -> Uma regra deles é a questão de arquivos JSX, que nós iremos disabilitar. (https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md)
+-> Seria bom pesquisar tag de template screen
+-> O arquivo dados_iniciais.json é um falso backend. Pois prove o site com informações mais existe um trabalho maior para editar (adicionar,retirar ou modificar).
+-> O react funciona com ciclos de vida. Logo nossos componentes iram morrer e se atualizar.
