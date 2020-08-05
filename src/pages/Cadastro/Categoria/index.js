@@ -14,7 +14,7 @@ function CadastroCategoria() {
   };
   const [categorias, setCategorias] = useState([]);
   /* Quando criamos três entradas para o formulário (nome, descrição e cor) uma solução abordada para diferenciar as informações seria criar três estados diferentes. Contudo no javascricript podemos criar um objeto com as três.
-    */ 
+    */
   // eslint-disable-next-line max-len
   const [values, setValues] = useState(valoresIniciais); { /* Esse useState é nosso valor inicial */ }
 
@@ -33,23 +33,30 @@ function CadastroCategoria() {
     );
   }
 
-  //____________AULA 4________________________________ 
-  //Uaremos essa função porque queremos que um efeito colateral aconteça.
+  // ____________AULA 4________________________________
+  // Uaremos essa função porque queremos que um efeito colateral aconteça.
   useEffect(() => {
-    if(window.location.href.includes('localhost')) {
-      const URL = 'http://localhost:8080/categorias'; 
-      fetch(URL)
-       .then(async (respostaDoServer) =>{
-        if(respostaDoServer.ok) {
-          const resposta = await respostaDoServer.json();
-          setCategorias(resposta);
-          return; 
-        }
+    // if(window.location.href.includes('localhost')) {
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://exemploflix.herokuapp.com/';
+    fetch(URL_TOP)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([
+          ...resposta,
+        ]);
+        { /* if(respostaDoServer.ok) {
+            const resposta = await respostaDoServer.json();
+            setCategorias(resposta);
+            return;
+            }
+          */ }
         throw new Error('Não foi possível pegar os dados');
-       })
-    }    
+      });
+    // }
   }, []);
-  //__________________________________________________
+  // __________________________________________________
 
   return (
     <PageDefault>
@@ -120,6 +127,12 @@ function CadastroCategoria() {
           Cadastrar
         </Button>
       </form>
+      {categorias.length === 0 && (
+        <div>
+          {/*Carregando...*/}
+          Loading...
+        </div>
+      )}
 
       <ul>
         {categorias.map((categoria, indice) => {
