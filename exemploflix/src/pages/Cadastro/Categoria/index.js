@@ -34,6 +34,7 @@ function CadastroCategoria() {
   }
 
   //____________AULA 4________________________________ 
+  //Uaremos essa função porque queremos que um efeito colateral aconteça.
   useEffect(() => {
     if(window.location.href.includes('localhost')) {
       const URL = 'http://localhost:8080/categorias'; 
@@ -119,10 +120,6 @@ function CadastroCategoria() {
           Cadastrar
         </Button>
       </form>
-      <div>
-        {/*Carregando... */}
-        Loading...
-      </div>
 
       <ul>
         {categorias.map((categoria, indice) => {
