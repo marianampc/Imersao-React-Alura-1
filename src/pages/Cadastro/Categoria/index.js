@@ -1,10 +1,12 @@
 /* eslint-disable no-lone-blocks */
 /* eslint-disable linebreak-style */
+/* eslint-disable max-len */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../componentes/PageDefault';
 import FormField from '../../../componentes/FormField';
 import Button from '../../../componentes/Button';
+// import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -36,25 +38,35 @@ function CadastroCategoria() {
   // ____________AULA 4________________________________
   // Uaremos essa função porque queremos que um efeito colateral aconteça.
   useEffect(() => {
-    // if(window.location.href.includes('localhost')) {
     const URL_TOP = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
-      : 'https://exemploflix.herokuapp.com/';
+      : 'https://devsoutinhoflix.herokuapp.com/categorias';
+    // E a ju ama variáveis
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
         setCategorias([
           ...resposta,
         ]);
-        { /* if(respostaDoServer.ok) {
-            const resposta = await respostaDoServer.json();
-            setCategorias(resposta);
-            return;
-            }
-          */ }
-        throw new Error('Não foi possível pegar os dados');
       });
-    // }
+
+    // setTimeout(() => {
+    //   setCategorias([
+    //     ...categorias,
+    //     {
+    //       id: 1,
+    //       nome: 'Front End',
+    //       descricao: 'Uma categoria bacanudassa',
+    //       cor: '#cbd1ff',
+    //     },
+    //     {
+    //       id: 2,
+    //       nome: 'Back End',
+    //       descricao: 'Outra categoria bacanudassa',
+    //       cor: '#cbd1ff',
+    //     },
+    //   ]);
+    // }, 4 * 1000);
   }, []);
   // __________________________________________________
 
@@ -129,20 +141,17 @@ function CadastroCategoria() {
       </form>
       {categorias.length === 0 && (
         <div>
-          {/*Carregando...*/}
+          {/* Carregando... */}
           Loading...
         </div>
       )}
 
       <ul>
-        {categorias.map((categoria, indice) => {
-          { /* Estamos contatenando as duas informações */ }
-          return (
-            <li key={`${categoria}${indice}`}>
-              {categoria}
-            </li>
-          );
-        })}
+        {categorias.map((categoria) => (
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
+          </li>
+        ))}
       </ul>
 
       <Link to="/">

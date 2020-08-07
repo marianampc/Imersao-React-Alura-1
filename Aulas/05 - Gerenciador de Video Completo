@@ -1,0 +1,8 @@
+Conteúdo detalhado dessa aula:
+    Cadastro de vídeos
+    Reuso para reuso de lógicas de state
+    Deixando a Home dinâmica
+    Fazendo as categorias aparecerem
+    Cadastrando vídeos
+
+-> Agora para iniciar nosso código, usamos o comando npm run dev
