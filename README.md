@@ -1,4 +1,5 @@
-Esse projeto foi ensinado durante a Imersão de React do site Alura, https://www.alura.com.br/imersao-react/ ,. Concluí os 4 primeiros dias e o quinto não consegui finalizar, contudo aproveitei bastante os códigos desse git: https://gist.github.com/omariosouto/710e1627703647c311d511f07a5aa611 .
+## O que é ?
+Esse projeto foi ensinado durante a Imersão de React do site Alura, https://www.alura.com.br/imersao-react/ . Concluí os 4 primeiros dias e o quinto não consegui finalizar, contudo aproveitei bastante os códigos desse git: https://gist.github.com/omariosouto/710e1627703647c311d511f07a5aa611 .
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
