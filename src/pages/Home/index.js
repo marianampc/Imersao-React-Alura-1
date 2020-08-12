@@ -1,3 +1,4 @@
+/* eslint-disable spaced-comment */
 import React, { useEffect, useState } from 'react';
 import Menu from '../../componentes/menu';
 import dadosIniciais from '../../data/dados_iniciais.json';
@@ -12,6 +13,9 @@ function Home() {
       .then((categoriasComVideos) => {
         console.log(categoriasComVideos);
       });
+      /*.catch ((err) => {
+        console.log(err.message);
+      });*/
     // fetch(URLBackend_TOP)
     //  .then(async (respostaDoServidor.json) =>{
     //  const resposta = await respostaDoServidor.json();
